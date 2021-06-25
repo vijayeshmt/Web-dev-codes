@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+           /* background-color: thistle;*/
+           background-image: url("cusimg.jpg");
+        }
+        .container{
+            color: red;
+            border: sandybrown;
+            background-color: whitesmoke;
+            border-color: rgb(100, 36, 100);
+            border-radius: 23px;
+            width: 550px;
+            border-style: solid;
+            /*padding: 30px;*//*top,bottom etc are available*/
+            margin: 25px;/*top,bottom etc are available*/
+           /* padding: 13px 33px 13px 53px;*//*padding = top right bottom left*/
+            padding: 19px 4px; /*top and bottom  ,right and left*/
+            box-sizing: content-box;/*overriding*/
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <h2>This is heading</h2>
+            
+            <p id="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt tenetur itaque nisi voluptatum saepe enim nostrum dolorum distinctio dolorem accusantium! Nostrum dignissimos qui laboriosam soluta mollitia odio ab quis deserunt!</p>
+        </div>
+        <div class="container">
+            <h2>This is heading</h2>
+            
+            <p id="para2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt tenetur itaque nisi voluptatum saepe enim nostrum dolorum distinctio dolorem accusantium! Nostrum dignissimos qui laboriosam soluta mollitia odio ab quis deserunt!</p>
+        </div>
+        <div class="container">
+            <h2>This is heading</h2>
+            
+            <p id="para3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt tenetur itaque nisi voluptatum saepe enim nostrum dolorum distinctio dolorem accusantium! Nostrum dignissimos qui laboriosam soluta mollitia odio ab quis deserunt!</p>
+        </div>
+
+    </body>
+</html>

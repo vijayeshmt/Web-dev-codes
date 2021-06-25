@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h2>This is form </h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        
+       <div>
+         <input type="text" name="Name" id="name">
+       </div>
+       <label for="Role"> Role</label>
+       <br>
+       <div>
+       <input type="text" name="Role" id="Role">
+       </div>
+       <br>
+       <div>
+         Date:  <input type="date" name="Date" id="">
+       </div>
+       <br>
+       <div>
+        Email:<input type="email" name="myEmail" >
+        </div>
+        <br>
+        <div>
+          number:  <input type="number" name="number" id="">
+        </div>
+        <br>
+        
+        <div>
+            <label for="Are you eligible"> Are you eligible</label>
+           <input type="checkbox" name="Myeligibility" checked id="Are you eligible">
+        </div>
+        <br>
+        <div>
+          Write about yourself: <br>  <textarea name="" id="" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+          <label for="car">Car</label>
+          <select name="mycar" id="car">
+              <option value="Indica"></option>
+              <option value="Benz"></option>
+              <option value="Toyota"></option>
+              <option value="Audi"></option>
+          </select>
+        </div>
+        <br>
+   
+<!-- div creates new line or division -->
+<!-- br creates new line -->
+<!-- label allows us to craete label for something -->
+<!-- input allows us to do several things also to create forms -->
+
+        <div>
+            Gender:Male <input type="radio" name="gender" id="">Female: <input type="radio" name="gender" id=""> other: <input type="radio" name="gendeer" id="">
+
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
